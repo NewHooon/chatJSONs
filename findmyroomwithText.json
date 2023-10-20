@@ -1,0 +1,47 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "name": "string",
+      "description": "string",
+      "image": {
+        "original": "string",
+        "thumbnail": "string"
+      },
+      "condition": {
+        "schoolDept": [
+          0
+        ],
+        "enterYear": [
+          0,
+          0
+        ],
+        "enrollment": [
+          "admitted"
+        ]
+      },
+      "attendance": 0,
+      "capacity": 0,
+      "type": "realname",
+      "code": "string",
+      "lastMessage": {
+        "id": 0,
+        "createdAt": "string",
+        "sender": {
+          "id": 0,
+          "image": {
+            "original": "string",
+            "thumbnail": "string"
+          },
+          "schoolDept": "string",
+          "enterYear": 0,
+          "enrollment": "admitted",
+          "realname": "string"
+        },
+        "type": "text",
+        "text": "string"
+      },
+      "isNotificationAllowed": true
+    }
+  ]
+}
