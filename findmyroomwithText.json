@@ -1,47 +1,53 @@
 {
   "status": "success",
-  "result": [
-    {
-      "name": "string",
-      "description": "string",
-      "image": {
-        "original": "string",
-        "thumbnail": "string"
-      },
-      "condition": {
-        "schoolDept": [
-          0
-        ],
-        "enterYear": [
-          0,
-          0
-        ],
-        "enrollment": [
-          "admitted"
-        ]
-      },
-      "attendance": 0,
-      "capacity": 0,
-      "type": "realname",
-      "code": "string",
-      "lastMessage": {
-        "id": 0,
-        "createdAt": "string",
-        "sender": {
-          "id": 0,
-          "image": {
-            "original": "string",
-            "thumbnail": "string"
-          },
-          "schoolDept": "string",
-          "enterYear": 0,
-          "enrollment": "admitted",
-          "realname": "string"
+  "result": {
+    "rooms": [
+      {
+        "code": "string",
+        "name": "string",
+        "description": "string",
+        "image": {
+          "original": "string",
+          "thumbnail": "string"
         },
-        "type": "text",
-        "text": "string"
-      },
-      "isNotificationAllowed": true
-    }
-  ]
+        "profileType": "string",
+        "visibleProfiles": [
+          "string"
+        ],
+        "condition": {
+          "schoolDept": [
+            0
+          ],
+          "enterYear": [
+            0,
+            0
+          ],
+          "enrollment": [
+            "admitted"
+          ]
+        },
+        "attendance": 0,
+        "capacity": 300,
+        "lastMessage": {
+          "id": 0,
+          "createdAt": "string",
+          "sender": {
+            "id": 0,
+            "userName": "string",
+            "image": {
+              "original": "string",
+              "thumbnail": "string"
+            },
+            "schoolDept": "string",
+            "enterYear": 0,
+            "enrollment": "admitted"
+          },
+          "type": "text",
+          "text": "string"
+        },
+        "isModerator": true,
+        "isNotificationAllowed": 0
+      }
+    ]
+  }
 }
