@@ -1,53 +1,50 @@
 {
-  "status": "success",
-  "result": {
-    "rooms": [
-      {
-        "code": "string",
-        "name": "string",
-        "description": "string",
-        "image": {
-          "original": "string",
-          "thumbnail": "string"
-        },
-        "profileType": "string",
-        "visibleProfiles": [
-          "string"
+  "rooms": [
+    {
+      "code": "string",
+      "name": "string",
+      "description": "string",
+      "image": {
+        "original": "string",
+        "thumbnail": "string"
+      },
+      "profileType": "string",
+      "visibleProfiles": [
+        "string"
+      ],
+      "condition": {
+        "schoolDept": [
+          0
         ],
-        "condition": {
-          "schoolDept": [
-            0
-          ],
-          "enterYear": [
-            0,
-            0
-          ],
-          "enrollment": [
-            "admitted"
-          ]
-        },
-        "attendance": 0,
-        "capacity": 300,
-        "lastMessage": {
+        "enterYear": [
+          0,
+          0
+        ],
+        "enrollment": [
+          "admitted"
+        ]
+      },
+      "attendance": 0,
+      "capacity": 300,
+      "lastMessage": {
+        "id": 0,
+        "createdAt": "string",
+        "sender": {
           "id": 0,
-          "createdAt": "string",
-          "sender": {
-            "id": 0,
-            "userName": "string",
-            "image": {
-              "original": "string",
-              "thumbnail": "string"
-            },
-            "schoolDept": "string",
-            "enterYear": 0,
-            "enrollment": "admitted"
+          "userName": "string",
+          "image": {
+            "original": "string",
+            "thumbnail": "string"
           },
-          "type": "text",
-          "text": "string"
+          "schoolDept": "string",
+          "enterYear": 0,
+          "enrollment": "admitted"
         },
-        "isModerator": true,
-        "isNotificationAllowed": 0
-      }
-    ]
-  }
+        "type": "text",
+        "text": "string"
+      },
+      "isModerator": true,
+      "isNotificationAllowed": 0
+    }
+  ]
 }
